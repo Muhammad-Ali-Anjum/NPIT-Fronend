@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import logo from '../image/logo.png'
+import logo from '../../public/logo.png';
 import Link from "next/link";
 import { Linkedin, Facebook, Twitter, MapPin, Phone, Mail } from "lucide-react";
 // import { FaGoogle } from "react-icons/fa";
@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="w-full">
       {/* ================= TOP SECTION ================= */}
-      <div className="bg-gray-200 py-8 sm:py-10 px-5 sm:px-10 lg:px-20">
+      <div className="bg-[#00306E1A] py-8 sm:py-10 px-5 sm:px-10 lg:px-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
           {/* LEFT SIDE */}
@@ -21,9 +21,9 @@ function Footer() {
               <Image
                 src={logo}
                 alt="logo"
-                width={200}
+                width={400}
                 height={70}
-                priority
+                
               />
             </div>
 
@@ -69,7 +69,7 @@ function Footer() {
             <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3 text-center">
               Join Our Newsletter
             </h3>
-            <p className="text-gray-600 text-sm sm:text-base mb-4 text-left">
+            <p className="text-gray-600 text-sm sm:text-base mb-4 text-center">
               Subscribe to receive official updates on admissions,
               campus events, and academic offerings.
             </p>
