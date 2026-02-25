@@ -1,17 +1,18 @@
-// import Image from "next/image";
+import TechVisionHero from '../Components/TechVisionHero';
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 import HeroCarousel from '../Components/HeroCarousel';
-// import HeroCarousle from '../Components/HeroCarousel'
-import img  from '../../public/img1.jpeg'
+import Admission from '../Components/Admission';
+import PrincipalMessage from '../Components/PrincipalMessage';
 
 export default function Home() {
   return (
     <div>
       <Header/>
-         <HeroCarousel
-      // milliseconds
-      />
+      <HeroCarousel/>
+      <TechVisionHero/>
+      <Admission/>
+      <PrincipalMessage/>
       <Footer/>
     </div>
   );
