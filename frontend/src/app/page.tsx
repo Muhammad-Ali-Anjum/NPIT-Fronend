@@ -7,7 +7,7 @@ import Footer from '../Components/Footer'
 import TrandingCourse from '@/Components/TrandingCourse'
 import Addmission from '../Components/Addmission'
 import Faq from '../Components/Faq'
-import Faculty from '../Components/Faculty'
+import Faculty from '../Components/Faculty43'
 function page() {
   return (
     <>

@@ -1,10 +1,8 @@
 "use client";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-
 export default function Faq() {
   const [active, setActive] = useState(0);
-
   const faqs = [
     {
       question: "What is the application deadline?",
@@ -27,7 +25,6 @@ export default function Faq() {
         "Complete your FAFSA form along with your admission application. Our team responds within 2–3 weeks.",
     },
   ];
-
   return (
     <section className="bg-[#282460] py-24">
       <div className="max-w-4xl mx-auto px-6">
@@ -42,7 +39,6 @@ export default function Faq() {
             Everything you need to know.
           </p>
         </div>
-
         {/* Accordion */}
         <div className="space-y-5">
           {faqs.map((faq, index) => (
